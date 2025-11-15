@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Khám phá Nha Trang — VVK</title>
+  <link rel="icon" href="/favicon.ico"/>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <img src="../assets/logo.png" class="logo" alt="logo">
+      <div class="hdr-txt">
+        <h1>Khám phá Nha Trang</h1>
+        <p class="subtitle">Những góc đẹp quanh thành phố</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="gallery">
+      <h2>Ảnh Nha Trang</h2>
+      <div class="grid gallery-grid">
+        <img src="../assets/gallery/01.jpg" alt="Nha Trang 1">
+        <img src="../assets/gallery/02.jpg" alt="Nha Trang 2">
+        <img src="../assets/gallery/03.jpg" alt="Nha Trang 3">
+      </div>
+    </section>
+
+    <section class="quiz">
+      <h2>Quiz Nha Trang cho học sinh</h2>
+
+      <div class="quiz-item">
+        <p>Võ Văn Ký sinh năm bao nhiêu?</p>
+        <input id="answer1" class="quiz-input" placeholder="Nhập câu trả lời">
+        <button onclick="checkAnswer('answer1')">Kiểm tra</button>
+        <p id="result1"></p>
+      </div>
+
+      <div class="quiz-item">
+        <p>Địa danh nổi tiếng: Bãi biển nào ở trung tâm?</p>
+        <input id="answer2" class="quiz-input" placeholder="Nhập câu trả lời">
+        <button onclick="checkAnswer('answer2')">Kiểm tra</button>
+        <p id="result2"></p>
+      </div>
+
+      <div class="quiz-item">
+        <p>Nhập năm tượng trưng (ví dụ: 2025)</p>
+        <input id="answer3" class="quiz-input" placeholder="Nhập câu trả lời">
+        <button onclick="checkAnswer('answer3')">Kiểm tra</button>
+        <p id="result3"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><a href="../index.html" style="color:white;text-decoration:underline">← Về trang chính</a></p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
